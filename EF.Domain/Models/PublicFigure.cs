@@ -1,6 +1,9 @@
+using System.ComponentModel.DataAnnotations.Schema;
+
 namespace EF.Domain.Models;
 
-public class PublicFigure
+[Table("PublicFigure")]
+public class PublicFigure: Person
 {
-    
+    public int Capital { get; set; }
 }
