@@ -1,14 +1,7 @@
 using Bogus;
-using Bogus.DataSets;
 using EF.Domain;
 using EF.Domain.Models;
 using Microsoft.EntityFrameworkCore;
-using System;
-using System.Diagnostics.Contracts;
-using System.Dynamic;
-using System.Text.Json.Serialization;
-using Microsoft.EntityFrameworkCore.Storage.Json;
-using Person = EF.Domain.Models.Person;
 
 namespace EF.Application;
 

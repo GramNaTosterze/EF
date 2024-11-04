@@ -1,8 +1,6 @@
-using System.Collections.ObjectModel;
 using EF.Domain.Models;
 
 namespace EF.UI.Views {
-    using Terminal.Gui;
     
     
     public partial class UpdateEmployment

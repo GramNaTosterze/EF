@@ -1,5 +1,4 @@
 using System.Collections.ObjectModel;
-using System.Dynamic;
 using EF.Domain.Models;
 
 namespace EF.UI.Views {

@@ -1,10 +1,7 @@
-﻿using System.Diagnostics;
-using Bogus;
-using Bogus.DataSets;
+﻿using Bogus;
 using EF.Domain;
 using EF.Domain.Models;
 using Microsoft.EntityFrameworkCore;
-using Microsoft.VisualBasic.CompilerServices;
 using Person = EF.Domain.Models.Person;
 
 namespace EF.Application;

@@ -1,12 +1,9 @@
-using EF.UI;
 using EF.UI.Views;
+using EF.Application;
+using EF.Infrastructure;
 using Terminal.Gui;
 
 namespace EF.UI {
-    using EF.Application;
-    using EF.Infrastructure;
-    using Terminal.Gui;
-    
     
     public sealed partial class App {
         private  MainView _mainView;
